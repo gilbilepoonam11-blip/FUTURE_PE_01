@@ -1,0 +1,62 @@
+# 🤖 AI Prompt Engineering Logic
+
+This project utilizes a **Multi-Step Prompting Strategy** to move from high-level brand strategy to platform-ready UGC (User-Generated Content) scripts. 
+
+---
+
+## 1. System Persona Prompt
+**Purpose:** Sets the AI's "brain" to think like a Performance Creative Director rather than a generic assistant.
+
+> **Prompt:**
+> "You are an expert UGC (User-Generated Content) Creative Strategist. Your goal is to create high-converting ad content for a local cafe called 'The Daily Grind'. 
+> Your tone should be: Authentic, relatable, slightly aesthetic, and community-focused. 
+> Avoid: Corporate jargon, 'salesy' language, and over-polished marketing speak. 
+> Framework: Use the PAS (Problem-Agitate-Solution) model for all scripts."
+
+---
+
+## 2. The Hook Matrix Prompt
+**Purpose:** Generates "Scroll-Stopping" openings based on psychological triggers.
+
+> **Prompt:**
+> "Generate 5 distinct hooks for a 15-second TikTok/Reel for the cafe. 
+> Categorize them by:
+> - **The POV:** (e.g., 'POV: You found...')
+> - **The Hot Take:** (e.g., 'Stop going to [Competitor] for...')
+> - **The Visual Tease:** (e.g., 'I can't believe this spot exists...')
+> - **The Utility:** (e.g., '3 reasons why this is the best remote work spot...')
+> - **The Secret:** (e.g., 'Ordering the off-menu item at...') "
+
+---
+
+## 3. The PAS Scripting Prompt (With Visual Cues)
+**Purpose:** Turns a hook into a full narrative with directions for the creator.
+
+> **Prompt:**
+> "Write a 30-second UGC script using the 'POV' hook. 
+> Format the output as a table with two columns: [Visual Scene] and [Audio/Voiceover].
+> Ensure the script addresses the 'Problem' (distracted working at home), the 'Agitation' (loud chain coffee shops), and the 'Solution' (The Daily Grind's cozy atmosphere and fast Wi-Fi)."
+
+---
+
+## 4. Platform-Specific Adaptation Prompt
+**Purpose:** Modifies the output for different technical constraints (YouTube Shorts vs. Instagram).
+
+> **Prompt:**
+> "Take the previous script and adapt it for YouTube Shorts. 
+> Requirements:
+> 1. Shorten the intro to 1.5 seconds.
+> 2. Add a 'Loop' ending where the last sentence leads back into the first sentence.
+> 3. Suggest 3 trending audio 'vibes' (e.g., Lo-fi, Upbeat Jazz, Ambient Cafe Sounds)."
+
+---
+
+## 5. Metadata & Conversion Prompt
+**Purpose:** Generates the 'Final Inch' content—captions and CTAs.
+
+> **Prompt:**
+> "Generate 3 captions for the video:
+> - Option 1: Short, emoji-heavy, and 'Gen-Z' coded.
+> - Option 2: Detailed with a 'Micro-blog' feel.
+> - Option 3: Direct Response (DR) focused with a clear discount code/offer.
+> Include a list of 5 niche hashtags for local coffee lovers."
